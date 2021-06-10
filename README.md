@@ -6,5 +6,3 @@
 https://t.me/learnqg
 
 
-
-<img src="https://raw.githubusercontent.com/imkenf/Xue/main/0001.png" width="60%">
