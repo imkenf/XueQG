@@ -5,4 +5,4 @@
 修改为全后台运行<br>
 https://t.me/learnqg
 
-<img src="https://raw.githubusercontent.com/imkenf/Xue/main/0001.png" width="65%">
+<img src="https://raw.githubusercontent.com/imkenf/Xue/main/0001.jpg" width="65%">
