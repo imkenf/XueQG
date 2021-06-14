@@ -1,6 +1,6 @@
 from colorama import init, Fore, Back, Style
-colorama.init(autoreset=True)
-#colorama.init(wrap=True)
+init(autoreset=True)
+#init(wrap=True)
 
 def red(mystr):
     return Fore.LIGHTRED_EX + mystr + Fore.RESET
