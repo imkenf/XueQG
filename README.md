@@ -3,6 +3,7 @@
 源码项目来自https://github.com/TechXueXi/TechXueXi <br>
 因改动较大，重新开了个分支<br>
 修改为全后台运行<br>
+欢迎加入讨论组
 https://t.me/learnqg
 
 目前还不能进行电影答题，User目录下的Question_movie.log为导出电影题目和答案
