@@ -6,6 +6,9 @@
 欢迎加入讨论组
 https://t.me/learnqg
 
+Win7等运行不了，一般缺少微软运行库等，下载安装即可
+https://www.lanzoux.com/iOrEHpzfpdi
+
 目前还不能进行电影答题，User目录下的Question_movie.log为导出电影题目和答案
 OCR的话太过繁杂和浪费时间，希望共同维护题库
 
