@@ -39,14 +39,14 @@ def get_userScore(cookies):
     userInfo_scores["today"] = userInfo_todayTotalScore # 今日得分
     userInfo_scores["total"] = userInfo_totalScore      # 总分
     
-    userInfo_scores["article_num_max"]  = score_max[0] # 0阅读文章
-    userInfo_scores["video_num_max"]    = score_max[1] # 1视听学习
-    userInfo_scores["login_max"]        = score_max[2] # 7登录
-    userInfo_scores["article_time_max"] = score_max[3] # 6文章时长
-    userInfo_scores["video_time_max"]   = score_max[4] # 5视听学习时长
-    userInfo_scores["daily_max"]        = score_max[5] # 2每日答题
-    userInfo_scores["weekly_max"]       = score_max[6] # 3每周答题
-    userInfo_scores["zhuanxiang_max"]   = score_max[7] # 4专项答题
+    userInfo_scores["article_num_max"]  = score_max[0] # 0阅读文章上限
+    userInfo_scores["video_num_max"]    = score_max[1] # 1视听学习上限
+    userInfo_scores["login_max"]        = score_max[2] # 7登录上限
+    userInfo_scores["article_time_max"] = score_max[3] # 6文章时长上限
+    userInfo_scores["video_time_max"]   = score_max[4] # 5视听学习时长上限
+    userInfo_scores["daily_max"]        = score_max[5] # 2每日答题上限
+    userInfo_scores["weekly_max"]       = score_max[6] # 3每周答题上限
+    userInfo_scores["zhuanxiang_max"]   = score_max[7] # 4专项答题上限
     
     return userInfo_scores
 
