@@ -26,7 +26,7 @@ def get_userScore(cookies):
                 score_max[j] = int(i["dayMaxScore"])
             
     # 阅读文章，视听学习，登录，文章时长，视听学习时长，每日答题，每周答题，专项答题
-    userInfo_scores = userInfo_scores_max = {}
+    userInfo_scores = {}
     userInfo_scores["article_num"]  = score_list[0] # 0阅读文章
     userInfo_scores["video_num"]    = score_list[1] # 1视听学习
     userInfo_scores["login"]        = score_list[2] # 7登录
@@ -36,7 +36,8 @@ def get_userScore(cookies):
     userInfo_scores["weekly"]       = score_list[6] # 3每周答题
     userInfo_scores["zhuanxiang"]   = score_list[7] # 4专项答题
     
-    userInfo_scores["today"] = userInfo_todayTotalScore # 8今日得分
+    userInfo_scores["today"] = userInfo_todayTotalScore # 今日得分
+    userInfo_scores["total"] = userInfo_totalScore      # 总分
     
     userInfo_scores["article_num_max"]  = score_max[0] # 0阅读文章
     userInfo_scores["video_num_max"]    = score_max[1] # 1视听学习
@@ -47,11 +48,11 @@ def get_userScore(cookies):
     userInfo_scores["weekly_max"]       = score_max[6] # 3每周答题
     userInfo_scores["zhuanxiang_max"]   = score_max[7] # 4专项答题
     
-    return userInfo_totalScore, userInfo_scores
+    return userInfo_scores
 
 def show_userScore(cookies):
-    userInfo_totalScore, userInfo_scores = get_userScore(cookies)
-    print("当前学习总积分：" + str(userInfo_totalScore) + "\t" + "今日得分：" + str(userInfo_scores["today"]))
+    #userInfo_totalScore, userInfo_scores = get_userScore(cookies)
+    print("当前学习总积分：" + str(userInfo_scores["total"]) + "\t" + "今日得分：" + str(userInfo_scores["today"]))
     print("阅读文章:", userInfo_scores["article_num"], "/", userInfo_scores["article_num_max"], ",",
         "视听学习:", userInfo_scores["video_num"], "/", userInfo_scores["video_num_max"], ",",
         "文章时长:", userInfo_scores["article_time"], "/", userInfo_scores["article_time_max"], ",",
@@ -60,5 +61,4 @@ def show_userScore(cookies):
         "每日答题:", userInfo_scores["daily"], "/", userInfo_scores["daily_max"], ",",
         "每周答题:", userInfo_scores["weekly"], "/", userInfo_scores["weekly_max"], ",",
         "专项答题:", userInfo_scores["zhuanxiang"], "/", userInfo_scores["zhuanxiang_max"])
-        
     return userInfo_scores
