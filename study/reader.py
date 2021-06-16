@@ -33,7 +33,6 @@ def learn(model, cookies, scores):
                         print("正在进行阅读学习中，剩余{}篇，本篇剩余时间{}秒".format(learn_remain, learn_time - i), end="\r", flush=True)
                     learning.driver.execute_script('window.scrollTo(0, document.body.scrollHeight)')
                     print("\n")
-                    #scores = show_userScore(cookies)
                     course = get_study_scores(model, cookies, True)
                     try_count += 1
                     if course["num"] >= course["num_max"] and course["time"] >= course["time_max"]:
