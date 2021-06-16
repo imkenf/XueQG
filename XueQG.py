@@ -3,7 +3,7 @@ from func.common import *
 from answers import *
 from func.Xuecore import XCore
 from func import score, user, version, threads
-from reader import article, video
+from study import reader
 
 if __name__ == '__main__':
 
@@ -59,8 +59,8 @@ if __name__ == '__main__':
         multiThreading_mode = input("请选择模式（输入对应数字）并回车: ") or 1
         print("=" * 60)
            
-    article_thread = threads.MyThread("文章学习", article.read_article, cookies, scores)
-    video_thread = threads.MyThread("视频学习", video.read_video, cookies, scores)
+    article_thread = threads.MyThread("文章学习", reader.learn, "article", cookies, scores)
+    video_thread = threads.MyThread("视频学习", reader.learn, "video", cookies, scores)
 
     #文章学习线程模式
     if int(multiThreading_mode) == 2:
