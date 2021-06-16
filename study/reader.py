@@ -98,4 +98,4 @@ def get_study_scores(model, cookies, show=False):
         return course
     else:
         print("@model error!")
-        return False
+        return None
