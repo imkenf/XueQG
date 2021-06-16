@@ -51,6 +51,7 @@ def get_userScore(cookies):
     return userInfo_scores
 
 def show_userScore(cookies):
+    userInfo_scores = get_userScore(cookies)
     print("当前学习总积分：" + str(userInfo_scores["total"]) + "\t" + "今日得分：" + str(userInfo_scores["today"]))
     print("阅读文章:", userInfo_scores["article_num"], "/", userInfo_scores["article_num_max"], ",",
         "视听学习:", userInfo_scores["video_num"], "/", userInfo_scores["video_num_max"], ",",
