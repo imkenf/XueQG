@@ -3,7 +3,7 @@
 欢迎加入讨论组
 https://t.me/learnqg
 
-目前版本基本完美，内置打包Chrome最新版浏览器驱动，后台无界面调用。
+目前版本基本完美，内置打包Chrome最新版浏览器驱动，后台无界面调用。<br>
 基本每天45分满分，就差不能进行电影答题，自动随机答题过，以后有精力再做题库了。
 
 <img src="https://raw.githubusercontent.com/imkenf/Xue/main/0001.jpg" width="65%">
