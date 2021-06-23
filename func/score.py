@@ -34,7 +34,7 @@ def get_userScore(cookies):
     userInfo_scores["video_time"]   = score_list[4] # 5视听学习时长
     userInfo_scores["daily"]        = score_list[5] # 2每日答题
     userInfo_scores["weekly"]       = score_list[6] # 3每周答题
-    userInfo_scores["zhuanxiang"]   = score_list[7] # 4专项答题
+    userInfo_scores["special"]   = score_list[7] # 4专项答题
     
     userInfo_scores["today"] = userInfo_todayTotalScore # 今日得分
     userInfo_scores["total"] = userInfo_totalScore      # 总分
@@ -46,7 +46,7 @@ def get_userScore(cookies):
     userInfo_scores["video_time_max"]   = score_max[4] # 5视听学习时长上限
     userInfo_scores["daily_max"]        = score_max[5] # 2每日答题上限
     userInfo_scores["weekly_max"]       = score_max[6] # 3每周答题上限
-    userInfo_scores["zhuanxiang_max"]   = score_max[7] # 4专项答题上限
+    userInfo_scores["special_max"]   = score_max[7] # 4专项答题上限
     
     return userInfo_scores
 
@@ -60,5 +60,6 @@ def show_userScore(cookies):
         "\n每日登陆:", userInfo_scores["login"], "/", userInfo_scores["login_max"], ",",
         "每日答题:", userInfo_scores["daily"], "/", userInfo_scores["daily_max"], ",",
         "每周答题:", userInfo_scores["weekly"], "/", userInfo_scores["weekly_max"], ",",
-        "专项答题:", userInfo_scores["zhuanxiang"], "/", userInfo_scores["zhuanxiang_max"])
+        "专项答题:", userInfo_scores["special"], "/", userInfo_scores["special_max"])
     return userInfo_scores
+
