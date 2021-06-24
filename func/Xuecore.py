@@ -95,7 +95,6 @@ class XCore:
         self.driver.get(url)
         
     def logging(self):
-        #querySelectorAll('.layout-header, .redflagbox, .layout-footer')
         print("正在打开二维码登陆界面,请稍后...")
         self.driver.get("https://pc.xuexi.cn/points/login.html")
         #删除登录二维码界面多余元素
