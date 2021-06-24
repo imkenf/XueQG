@@ -74,7 +74,6 @@ def respond(model, cookies, scores):
                     print("检测到答案无法提交，此次答题已中断！")
                     break
             #获取题目类型
-            #此处有疑问
             try:
                 category = respond_drv.driver.find_element_by_css_selector("#app .detail-body .q-header").text
                 time.sleep(1)
@@ -82,8 +81,6 @@ def respond(model, cookies, scores):
                 print("DEBUG-1001#1: 没有找到题目类型元素") #+ str(e))
                 #os.system("pause")
                 break
-                       
-            #此处有疑问
             #获取题目
             try:
                 q_body = respond_drv.driver.find_element_by_css_selector("#app .q-body")
@@ -123,7 +120,6 @@ def respond(model, cookies, scores):
             
             #保存答题提示日志
             q_log.extend((tips, tip_full_text))
-            #log_answer(model, q_log)
             
             #开始答题
             if "填空题" in category:
@@ -217,12 +213,9 @@ def respond(model, cookies, scores):
                     else:
                         print(color.red('无法根据提示判断，自动选择 A选项'))                        
                         respond_drv.radio_check("A")
-                try_count += 1        
-            #os.system("pause")
+                try_count += 1
         scores = show_userScore(cookies)
-        print("完成此次答题，正在退出...")      
-        #os.system("pause")
-        #exit()
+        print("完成此次答题，正在退出...")
             
 def log_answer(logtype, logdata):
     if logtype == "daily":
