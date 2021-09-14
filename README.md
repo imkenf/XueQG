@@ -2,9 +2,9 @@
 <div>
   <img width="128" height="128" align="left" src="./img/Icon.png" alt="XueQG"/>
   <p>学习强国学习助手，和您一同学习进步，自用<br>
-  每天稳定学习45+分<br>
-  全类型题目答题<br>
-  二维码登录发送<br>
+  > 每天稳定学习45+分<br>
+  > 全类型题目答题<br>
+  > 二维码登录发送<br>
   </p>
 </div>
 
