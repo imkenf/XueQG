@@ -6,7 +6,9 @@
 每天稳定学习45+分
 全类型题目答题<br>
 多种类文章学习<br>
-二维码登录发送等<br> 
+二维码登录发送等
+
+> 目前版本基本完美，内置打包Chrome最新版浏览器驱动，后台无界面调用。
 
 [![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg)](https://github.com/imkenf/XueQG/releases/latest)
 
@@ -15,7 +17,7 @@
 欢迎加入讨论组
 https://t.me/learnqg
 
-目前版本基本完美，内置打包Chrome最新版浏览器驱动，后台无界面调用。<br>
+<br>
 基本每天稳定45分满分，就差不能进行电影答题，自动随机答题过，以后有精力再做题库了。
 
 <img src="https://raw.githubusercontent.com/imkenf/Xue/main/0001.jpg" width="65%">
