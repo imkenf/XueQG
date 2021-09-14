@@ -1,6 +1,6 @@
 # XueQG
 <div>
-  <img width="192" height="192" align="left" src="./img/Icon.png" alt="XueQG"/>
+  <img width="128" height="128" align="left" src="./img/Icon.png" alt="XueQG"/>
   <h1>XueQG</h1>
   <br>
   <p>XueQG</p>
