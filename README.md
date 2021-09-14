@@ -8,6 +8,8 @@
 多种类文章学习<br>
 二维码登录发送等<br> 
 
+[![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg)](https://github.com/imkenf/XueQG/releases/latest)
+
 # 说明
 学习强国学习助手，自用<br>
 欢迎加入讨论组
