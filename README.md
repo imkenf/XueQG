@@ -1,4 +1,11 @@
 # XueQG
+<div>
+  <img width="192" height="192" align="left" src="./img/Icon.png" alt="XueQG"/>
+  <h1>XueQG</h1>
+  <br>
+  <p>XueQG</p>
+</div>
+
 学习强国学习助手，自用<br>
 欢迎加入讨论组
 https://t.me/learnqg
