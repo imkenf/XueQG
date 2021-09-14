@@ -3,18 +3,18 @@
 <div>
   <img width="128" height="128" align="left" src="./img/Icon.png" alt="XueQG"/>
   <h1>XueQG</h1>
-  <br>
-  <p>学习强国学习助手，和您一同学习进步，自用</p>
+  <p>学习强国学习助手，和您一同学习进步，自用<br>
+  每天稳定学习45+分<br>
+  全类型题目答题，多种类文章学习，二维码登录发送等<br>
+  </p>
 </div>
-<br>
-每天稳定学习45+分
-全类型题目答题
-多种类文章学习
-二维码登录发送等
+
 
 > 目前版本基本完美，内置打包Chrome最新版浏览器驱动，后台无界面调用。
 
 [![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg)](https://github.com/imkenf/XueQG/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/imkenf/XueQG)](https://github.com/imkenf/XueQG/issues)
+
 
 # 说明
 学习强国学习助手，自用<br>
