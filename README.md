@@ -3,12 +3,12 @@
   <img width="128" height="128" align="left" src="./img/Icon.png" alt="XueQG"/>
   <p>学习强国学习助手，和您一同学习进步，自用</p>
 </div>
-&nbsp;每天稳定学习45+分
-&nbsp;全类型题目答题<br>
-&nbsp;多种类文章学习<br>
-&nbsp;二维码登录发送等<br>  
+每天稳定学习45+分
+全类型题目答题<br>
+多种类文章学习<br>
+二维码登录发送等<br> 
 
-
+# 说明
 学习强国学习助手，自用<br>
 欢迎加入讨论组
 https://t.me/learnqg
