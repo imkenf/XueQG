@@ -2,6 +2,7 @@
 <div>
   <img width="128" height="128" align="left" src="./img/Icon.png" alt="XueQG"/>
   <p>学习强国学习助手，和您一同学习进步，自用</p>
+  <p>每天学习45+分</p>
 </div>
 
 学习强国学习助手，自用<br>
