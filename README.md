@@ -29,6 +29,4 @@ https://t.me/learnqg
 使用需严格遵守开源许可协议。本项目仅限于程序开发学习交流之用，严禁用于商业用途，禁止使用本项目进行任何盈利活动。对一切非法使用所产生的后果，我们概不负责。
 
 # 鸣谢
-参考源码项目来自https://github.com/TechXueXi/TechXueXi <br>
-几乎重新编写，修复大量BUG，采用了该项目部分函数<br>
-
+参考源码项目来自https://github.com/TechXueXi/TechXueXi
