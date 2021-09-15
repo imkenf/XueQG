@@ -17,7 +17,7 @@
 https://t.me/learnqg
 <br>
 > 展示版本为Win64版本，如需Liunx运行，请自行打包对应版本Chrome
-<br>`Windows7 64Bit 以上`
+<br>最低系统要求`Windows7 64Bit及以上`
 
 > 学习界面演示
 
