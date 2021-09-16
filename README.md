@@ -8,8 +8,8 @@
 
 > 目前版本经长期测试，稳定学习，内置打包Chrome最新版浏览器驱动，后台无界面调用
 
-[![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg)](https://github.com/imkenf/XueQG/releases/latest)
-[![GitHub issues](https://img.shields.io/github/issues/imkenf/XueQG)](https://github.com/imkenf/XueQG/issues)
+[![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg?style=flat-square&color=0f6adb)](https://github.com/imkenf/XueQG/releases/latest)
+[![GitHub issues](https://img.shields.io/github/issues/imkenf/XueQG?style=flat-square&color=0f6adb)](https://github.com/imkenf/XueQG/issues)
 
 
 # 说明
