@@ -10,6 +10,7 @@
 
 [![Downloads](https://img.shields.io/github/downloads/imkenf/XueQG/total.svg?style=flat-square&color=0f6adb)](https://github.com/imkenf/XueQG/releases/latest)
 [![GitHub issues](https://img.shields.io/github/issues/imkenf/XueQG?style=flat-square&color=0f6adb)](https://github.com/imkenf/XueQG/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/imkenf/XueQG?style=flat-square&color=0f6adb)](https://github.com/imkenf/XueQG/graphs/contributors)
 
 
 # 说明
