@@ -28,6 +28,16 @@ https://t.me/learnqg
 <br>
 <img src="./img/DD1.png">
 
+# Docker 地址
+> 获取docker镜像
+
+`docker pull imkenf/xueqg:v1.00`
+> 运行方式
+
+`docker run -e ModeType=3 -e DDtoken=钉钉token -e DDsecret=钉钉secret --rm imkenf/xueqg:v1.00`
+> 注意
+Docker 版本需配合钉钉接收登录二维码使用
+
 # 免责声明
 使用需严格遵守开源许可协议。本项目仅限于程序开发学习交流之用，严禁用于商业用途，禁止使用本项目进行任何盈利活动。对一切非法使用所产生的后果，我们概不负责。
 
