@@ -28,7 +28,8 @@ https://t.me/learnqg
 <br>
 <img src="./img/DD1.png">
 
-# Docker 地址
+# Docker 地址<br>
+**2021.11.4更新稳定版**<br>
 > **获取docker镜像**<br>
 `docker pull imkenf/xueqg`
 
