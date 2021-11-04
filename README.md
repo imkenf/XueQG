@@ -56,7 +56,7 @@ PlusPush token 参数<br>
 > **运行方式**<br>
 `-e 添加上述参数`（按需要）<br>
 钉钉例子：<br>
-> `docker run -e ModeType=3 -e PushMode=1 -e DDtoken=123456 -e DDsecret=123456 --rm imkenf/xueqg`<br>
+> `docker run -e ModeType=3 -e PushMode=2 -e DDtoken=123456 -e DDsecret=123456 --rm imkenf/xueqg`<br>
 
 > **注意**<br>
 > Docker 版本需配合推送平台接收登录二维码使用
