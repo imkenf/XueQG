@@ -34,6 +34,11 @@ https://t.me/learnqg
 `docker pull imkenf/xueqg`
 
 > **参数说明：**<br>
+`ModeType = 4` <br>
+① 文章 + 视频<br>
+② 文章 + 视频 + 每日答题<br>
+③ 文章 + 视频 + 每日答题 + 每周答题 + 专项答题<br>
+④ 文章 + 每日答题 + 专项答题（★默认）<br>
 `PushMode = 1`<br>
 消息推送模式，1表示 内置消息接口，2表示 钉钉，3表示 PlusPush，0表示 不开启<br>
 钉钉机器人接入方式请参考 https://developers.dingtalk.com/document/app/custom-robot-access/title-72m-8ag-pqw<br>
