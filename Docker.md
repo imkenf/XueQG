@@ -15,7 +15,7 @@
 首次运行命令<br>
 > `docker run -it --name=xueqg -e ModeType=3 -e PushMode=2 -e DDtoken=123456 -e DDsecret=123456 imkenf/xueqg`<br>
 正常运行命令<br>
-> `docker start xueqg -a`<br>
+> `docker start xueqg -i`<br>
 注意：首次运行命令创建容器后，参数以首次命令输入参数为准，如需要创建多个容器，可以修改--name 参数名称
 <br>
 
