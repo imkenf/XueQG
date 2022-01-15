@@ -1,7 +1,12 @@
 # Docker 地址<br>
-**2022.01.01更新稳定版**<br>
+**2022.01.15更新全平台**<br>
 > **获取docker镜像**<br>
-`docker pull imkenf/xueqg`
+> x86-64 架构<br>
+`docker pull imkenf/xueqg`<br>
+> arm64 架构<br>
+`docker pull imkenf/xueqg-arm64v8`<br>
+> arm32 架构<br>
+`docker pull imkenf/xueqg-arm32v7`
 
 > **运行方式一：不保留用户记录**<br>
 `用 -e 添加程序参数`（按需要）<br>
