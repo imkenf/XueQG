@@ -31,9 +31,17 @@ https://t.me/learnqg
 <img src="./img/DD1.png">
 
 # Docker 地址<br>
-**2022.01.01更新稳定版**<br>
+**2022.01.15更新全平台**<br>
 > **获取docker镜像**<br>
+> x86-64 架构<br>
 `docker pull imkenf/xueqg`
+
+> arm64 架构<br>
+`docker pull imkenf/xueqg-arm64v8`
+
+> arm32 架构<br>
+`docker pull imkenf/xueqg-arm32v7`
+
 
 > **相关说明请查看：**<br>
 https://github.com/imkenf/XueQG/blob/main/Docker.md
